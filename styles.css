@@ -1,0 +1,254 @@
+.heading{
+  font-family: "Montserrat-Black";
+  font-size: 3.0rem;
+  padding-top: 6px;
+
+}
+.top{
+  background-color: #C0C0C0;
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+.skills-column {
+  padding: 3% 2%;
+}
+.skills-img{
+  border-radius: 100%;
+  width: 15%;
+}
+#skills{
+  padding-top: 0px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 100px;
+
+}
+.card:hover{
+transform: scale(1.05);
+}
+meter{
+  width: 70%;
+  border-radius: 20px;
+  height:25px;
+
+}
+
+
+
+.bar-con{
+  font-family: "Montserrat-Black";
+  font-size: 1.25rem;
+  margin-bottom: 0px;
+
+}
+
+/* code for chrome and safari */
+progress[value] {
+
+  -webkit-appearance: none;
+   appearance: none;
+
+  width: 250px;
+  height: 20px;
+}
+progress[value]::-webkit-progress-value {
+  background-image:
+	   -webkit-linear-gradient(-45deg,
+	                           transparent 33%, rgba(0, 0, 0, .1) 33%,
+	                           rgba(0,0, 0, .1) 66%, transparent 66%),
+	   -webkit-linear-gradient(top,
+	                           rgba(255, 255, 255, .25),
+	                           rgba(0, 0, 0, .25)),
+	   -webkit-linear-gradient(left, #09c, #f44);
+
+    border-radius: 2px;
+    background-size: 35px 20px, 100% 100%, 100% 100%;
+}
+
+progress[value]::-moz-progress-bar {
+  background-image:
+    -moz-linear-gradient(
+      135deg,
+      transparent 33%,
+      rgba(0, 0, 0, 0.1) 33%,
+      rgba(0, 0, 0, 0.1) 66%,
+      transparent 66%
+    ),
+    -moz-linear-gradient(
+      top,
+      rgba(255, 255, 255, 0.25),
+      rgba(0, 0, 0, 0.25)
+    ),
+    -moz-linear-gradient(
+      left,
+      #09c,
+      #f44
+    );
+  border-radius: 2px;
+  background-size: 35px 20px, 100% 100%, 100% 100%;
+}
+
+
+
+
+
+
+/* middle */
+.middle{
+font-size: 2.5rem;
+background-color: #C0C0C0;
+
+
+}
+.intro{
+
+  width: 60%;
+  height: 30%;
+  margin-left: 150px;
+
+}
+p{
+  color: #32322e;
+  line-height: 25px;
+  font-family: 'Inter',sans-serif;
+  font-size: 1.5rem;
+  padding-bottom: 30px;
+}
+.typer {
+    width: 50%;
+    line-height: 48px;
+    letter-spacing: -.5px;
+    padding-left: 150px;
+    padding-top: 100px;
+    padding-bottom: 10px;
+    font-family: "Montserrat-Black";
+    font-size: 3.0rem;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+
+}
+/* profile */
+.profile{
+  padding-bottom:100px;
+  /* background-color: green; */
+
+}
+.main-image{
+  width: 80%;
+  padding-left: 150px;
+}
+
+
+
+
+
+
+
+/* contact me css */
+.contact-box
+{
+  text-align: center;center;
+
+}
+
+
+
+/*-------- contact page start --------*/
+
+
+
+
+.contact-box p{
+  color: #ffffff;
+}
+.contact-box a{
+  color: #ffffff;
+}
+.contact-box a:hover{
+  color: #e83f53;
+}
+.contact-box h4{
+  color: #e83f53;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+.contact-icons {
+ color: #e83f53;
+ font-size: 35px;
+ margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+/* certicates section */
+
+
+
+
+.certicates-class
+{
+  text-align: left;
+}
+.certicates-class h4{
+  padding-bottom: 10px;
+  padding-left: 5px;
+  width: 210px;
+
+}
+hr{
+  width: 255px;
+}
+dt{
+  font-weight: 700;
+  margin-left: 5px;
+
+  width: 120px;
+  margin-top: 20px;
+}
+dl{
+  margin-left: 5px;
+}
+button{
+
+  position:relative;
+  left: 50%;
+  border-radius: 30px;
+
+}
+
+.certi-div{
+  height: 300px;
+
+
+}
+.certi-div:hover{
+
+  font-size:150%;
+  transform: scale(1.05);
+
+box-shadow: 5px 3px 5px 2px #00FF00;
+}
